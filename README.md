@@ -1,32 +1,39 @@
- AI-Powered Quantitative Trading System
+ Advanced Quantitative Research & Trading System
 
+ professional-grade algorithmic trading engine designed for the Indian Midcap sector. It leverages Machine Learning (XGBoost) to identify alpha-generating opportunities while maintaining strict risk controls.
 
-Advanced algorithmic trading engine designed to outperform the Nifty Midcap 100 index. It combines modern Machine Learning with classical risk management principles.
+---
 
-🧠 Core Features:
-Predictive Engine: Uses XGBoost Regressor to predict stock 'Alpha' (Excess Returns).
+### 📈 1. Performance Overview (Backtest Results)
+![Performance Dashboard](https://github.com/nanip969-commits/AI-Powered-Quantitative-Trading-System/blob/main/Screenshot%20(5147).png?raw=true)
+* **Identity:** Comprehensive performance scorecard.
+* **Insight:** Achieved a **CAGR of 37.1%** with a **Sharpe Ratio of 1.53**, significantly outperforming the benchmark index.
 
-Feature Engineering: 8-factor model including Momentum, RSI, Volatility (ATR), and Distance from 200 SMA.
+---
 
-Dynamic Training: Implements Walk-Forward Optimization (re-trains every 6 months).
+### 🧠 2. Explainable AI (Model Logic via SHAP)
+![ML Logic](https://github.com/nanip969-commits/AI-Powered-Quantitative-Trading-System/blob/main/Screenshot%20(5149).png?raw=true)
+* **Identity:** SHAP (SHapley Additive exPlanations) summary plot.
+* **Insight:** Visualizes how features like **MACD** and **1-Year Momentum** impact the model's predictions, ensuring transparent decision-making.
 
-Risk Management: Mathematical position sizing using the Kelly Criterion.
+---
 
-Explainable AI: Integrated with SHAP to visualize model decision-making logic.
+### 📝 3. Execution Log & Trade History
+![Trade Log](https://github.com/nanip969-commits/AI-Powered-Quantitative-Trading-System/blob/main/Screenshot%20(5148).png?raw=true)
+* **Identity:** Historical trade ledger.
+* **Insight:** Demonstrates the system's rebalancing logic and exit strategies, showing precise profit/loss tracking for every executed trade.
 
-📊 Performance Metrics (Backtested):
-Benchmark: Nifty Midcap 100
+---
 
-Strategy: Dynamic Portfolio of Top 10 Picks
+### 🎯 4. Live Portfolio Allocation
+![Live Signals](https://github.com/nanip969-commits/AI-Powered-Quantitative-Trading-System/blob/main/Screenshot%20(5150).png?raw=true)
+* **Identity:** Real-time signal generator and position sizer.
+* **Insight:** Automatically calculates the **Kelly Criterion** based weightage for the top 10 stocks, providing clear actionable signals for current capital.
 
-Key Stats: Optimized CAGR, Sharpe Ratio > 1.0, and Managed Drawdowns.
+---
 
-🖥️ Tech Stack:
-Python | Pandas | Scikit-Learn | XGBoost | Streamlit | SHAP | YFinance
-
-
-
-
-
-
-
+### 🛠️ Tech Stack & Methodology
+* **Language:** Python
+* **ML Model:** XGBoost Regressor
+* **Risk Management:** Kelly Criterion & 200-day SMA Filter
+* **Libraries:** Pandas, Scikit-Learn, Streamlit, SHAP, YFinance
